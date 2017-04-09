@@ -3,6 +3,8 @@ import os.path
 import re
 from collections import Counter
 
+QTY_WORDS = 10
+
 def load_data(filepath):
     if not os.path.exists(filepath):
         return None
@@ -12,7 +14,7 @@ def load_data(filepath):
 
 def get_most_frequent_words(text):
     words = re.findall(r'\w+', text.lower())
-    return Counter(words).most_common(10)
+    return Counter(words).most_common(QTY_WORDS)
 
 if __name__ == '__main__':
     fpath = sys.argv[1]
