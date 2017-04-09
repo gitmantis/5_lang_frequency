@@ -6,6 +6,7 @@
 Скрипт запускается с одним параметром: путь до файла с текстом.
 
 Пример запуска скрипта.
+```#!bash
 python lang_frequency.py text
 
 Word: в => Frequency: 6
@@ -18,7 +19,7 @@ Word: можно => Frequency: 2
 Word: с => Frequency: 2
 Word: не => Frequency: 2
 Word: вход => Frequency: 2
-
+```
 
 # Project Goals
 
