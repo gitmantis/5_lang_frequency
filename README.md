@@ -1,13 +1,17 @@
-# Frequency Analysis of Words
+# Частота цитирования слов
 
 Скрипт lang_frequency.py вычисляет количество вхождений слов в заданный текст и выводит
-сортированный по убыванию популярности список c количеством вхождений. 
+сортированный по убыванию популярности список c количеством вхождений каждого слова
+в порядке убывания.
 
-Скрипт запускается с одним параметром: путь до файла с текстом.
+Скрипт запускается с двумя параметрами: 
++путь до файла с текстом, в котором необходимо посчитать частоту вхождения слов.
++количество слов в списке
 
 Пример запуска скрипта.
-```#!bash
-python lang_frequency.py text
+Вывести десять первых по цитируемости слов  в файле file_name.txt
+```
+$python lang_frequency.py file_name.txt 10 
 
 Word: в => Frequency: 6
 Word: и => Frequency: 5
@@ -20,7 +24,7 @@ Word: с => Frequency: 2
 Word: не => Frequency: 2
 Word: вход => Frequency: 2
 ```
+# Цели проекта
 
-# Project Goals
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
